@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>CodeHat</title>
+  </head>
+  <body>
+    <div class="container column is-12">
+      <section data-fetch-key="0" class="section">
+        <h1 class="title">Author Problems</h1>
+        <div class="columns">
+          <div class="column is-9">
+            <div class="panel is-info">
+              <div class="panel-heading is-info">
+                <nav class="level">
+                  <div class="level-left">
+                    <div class="level-item"><h1>Problems</h1></div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item has-text-centered">
+                      <button class="button is-primary">
+                        <span class="icon is-small" style="margin: 0 5px">
+                          <i class="mdi mdi-plus-circle-outline"></i>
+                        </span>
+                        Create new problem
+                      </button>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div class="loj-list-item-box">
+                <ul class="loj-list-items">
+                  <article class="message is-info">
+                    <!---->
+                    <section class="message-body">
+                      <div class="media">
+                        <div class="media-left">
+                          <span class="icon is-large is-info"
+                            ><i class="mdi mdi-information mdi-48px"></i
+                          ></span>
+                        </div>
+                        <div class="media-content">No problems found</div>
+                      </div>
+                    </section>
+                    <!---->
+                  </article>
+                </ul>
+              </div>
+            </div>
+            <nav class="pagination">
+              <a
+                role="button"
+                href="#"
+                disabled="disabled"
+                aria-label="Previous page"
+                class="pagination-link pagination-previous"
+                ><span aria-hidden="true" class="icon"
+                  ><i class="mdi mdi-chevron-left mdi-24px"></i></span></a
+              ><a
+                role="button"
+                href="#"
+                disabled="disabled"
+                aria-label="Next page"
+                class="pagination-link pagination-next"
+                ><span aria-hidden="true" class="icon"
+                  ><i class="mdi mdi-chevron-right mdi-24px"></i></span
+              ></a>
+              <div class="control pagination-input"><!----></div>
+              <ul class="pagination-list">
+                <!----><!----><!----><!---->
+              </ul>
+            </nav>
+          </div>
+          <div class="column">
+            <aside class="menu author-sidebar">
+              <p class="menu-label">Author Navigation</p>
+              <ul class="menu-list">
+                <li><a>Author Dashboard</a></li>
+                <li><a class="is-active">Problems</a></li>
+                <li><a>Contests</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
